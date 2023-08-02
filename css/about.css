@@ -1,0 +1,282 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@media (max-width:991px){
+	section{
+		overflow-x: hidden;
+	}
+}
+@media (min-width:320px){
+	.nav-links{
+		background: #000;
+	}
+}
+@media (min-width:699px){
+	
+}
+@media (min-width:990px){
+	.nav-links{
+		background: none;
+	}
+	
+}
+/* -----------------about section------------------------ */
+.about-nav{
+	padding: 1.5rem 1.5rem !important;
+	transition: 1s ease;
+	z-index: 999;
+}
+.active{
+	color: #0088CC !important;
+}
+.nav-item{
+	font-size: 17px;
+	font-weight: 600;
+}
+.nav-item a:hover{
+	color: #0088CC !important;
+}
+.navbar-toggler{
+	background-color: #5d7ffd !important;
+	font-size: 14px !important;
+	padding: 5px 6px !important;
+}
+
+
+/* ------about banner------ */
+
+.banner-para{
+	color: rgba(229, 213, 213, 0.834);
+	font-weight: 600;
+	font-size: 18px;
+}
+.banner{
+	background:linear-gradient(#161515bd,#0e0c0cbd),url("../image/banner/about-us.jpg");
+	padding:170px 0;
+	background-size:cover;
+}
+.head-logo img{
+	width:100%;
+}
+.bg{
+	background: #383f48;
+	padding-top: 9px !important;
+	padding-bottom: 9px !important;
+	z-index: 999;
+}
+.ban-con h2{
+	font-size:35px;
+	font-weight:700;
+	line-height:15px !important;
+}
+.ban-con p{
+	font-size:17px;
+	line-height:30px !important;
+}
+.ban-con li{
+	font-size:12px;
+	
+}
+
+/* ---------about content------- */
+
+.abou-con{
+	padding:70px 0;
+}
+.about-para{
+	font-size:19px;
+	color:#777;
+}
+.about-para1{
+	color:#777;
+}
+.animate{
+	color: #fff;
+	background: #0088CC;
+	padding: 0 5px;
+}
+.line{
+	line-height: 45px;
+}
+
+
+
+
+/* -----count section----- */
+
+#count{
+	background:#0088CC;
+}
+.numbers{
+	font-size: 30px;
+	margin-bottom: 0 !important;
+	font-weight: 700;
+}
+.coun-icon{
+	font-size: 26px;
+}
+
+/* ------who-we section------ */
+
+#who-we{
+	background:#EDEDED;
+}
+.who-para{
+	font-size:19px;
+	color:#777;
+	font-weight: 600;
+}
+.who-para1{
+	color:#777;
+	
+}
+.who-heads{
+	font-weight: 400;
+}
+.cont-wrap i{
+	font-size:30px;
+}
+
+
+
+/* ----------team section------ */
+
+
+.owl-next{
+	position: absolute;
+    left: 0px;
+    top: 40%; 
+}
+.owl-next span{
+	font-size: 30px;
+}
+.owl-prev{
+	position: absolute;
+    right: 0px;
+    top: 40%; 
+}
+.owl-prev span{
+	font-size: 30px;
+}
+.team-name h2{
+	font-size: 20px;
+	color: #000;
+	text-transform: uppercase;
+}
+.team-name span{
+	font-size: 16px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+/* =========== about client ============= */
+#about-client{
+	background: #EDEDED;
+}
+.clint-img{
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	margin: auto;
+}
+.client-spa{
+	font-size:13px;
+	font-weight: 600;
+}
+.client-hd{
+	font-size:17px;
+	line-height: 5px;
+	color: #000;
+	font-weight: 700;
+}
+.client-bloc{
+	padding:0 40px;
+	position:relative;
+}
+.client-bloc::before{
+	content:"\F6B0";
+	position:absolute;
+	top:-20px;
+	left:0;
+	font-family: "bootstrap-icons";
+	font-size:35px;
+	color: #000;
+}
+.client-para{
+	font-size:17px;
+	color: rgba(0, 0, 0, 0.839);
+}
+.owl-dots{
+	display: none;
+}
+.client-logo{
+	opacity: 0.3;
+	cursor: pointer;
+	transition: .3s ease;
+}
+.client-logo:hover{
+	opacity: 1;
+}
+
+
+
+
+/* ------footer section-------- */
+ .add h6, .add p{
+	 font-size:13px;
+	 line-height:10px !important;
+ }
+.add a{
+	font-size:13px;
+	transition:all .5s linear;
+} 
+.add a:hover{
+	color:#fff !important;
+}
+.news p, .subscrib p{
+	font-size:14px;
+}
+.news p>a:hover{
+	color:#fff !important;
+}
+.foot-icon a{
+	display:inline-flex;
+	justify-content:center;
+	align-items:center;
+	width:30px;
+	height:30px;
+	border-radius:30px;
+	border:1px solid #444;
+	text-decoration:none;
+	transition:all .5s linear;
+}
+.foot-icon a:hover{
+	background:#4444e7c9;
+}
+.foot-icon a i{
+	font-size:13px;
+}
+
+.sub-inp{
+	background-color:#ffffff0d !important;
+    border-radius:35px !important;
+    padding:0.5rem 1.5rem !important;
+    color:#bfbfbf !important;
+}
+.onbtn{
+	font-size:12px !important;
+	padding:11px 30px !important;
+}
+.coppy{
+	border-top:1px solid #ffffff0d;
+}
+.coppy span{
+	font-size:12px;
+}

@@ -1,0 +1,162 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	list-style-type:none;
+	
+}
+section{
+	overflow-x: hidden;
+}
+
+
+
+/* --------contact html------- */
+.cont-nav {
+	z-index: 999;
+}
+.cont-logo a img{
+	width:100%;
+}
+.cont-nav .nav-links .nav-link{
+	color:#444;
+	margin-left:10px;
+	font-weight:700;
+	font-size:15px;
+}
+.cont-nav .nav-links .nav-link:hover{
+	color:rgb(0, 0, 0) !important; 
+}
+.navbar-toggler-icon{
+	width: 20px !important;
+	height: 20px !important;
+}
+.navbar-toggler{
+	padding: 4px 6px !important;
+	background-color: #39a8d3 !important;
+}
+
+
+
+
+
+.cont-nav .nav-links .nav-link{
+	color:#444;
+	margin-left:10px;
+	font-weight:600;
+	font-size:15px;
+}
+
+/* ------ banner section ----- */
+
+#contact-banner{
+	background:linear-gradient(#0e0c0c94,#0e0c0c94),url("../image/contact/contact-bg.jpg");
+	background-position:top;
+	background-size:fit;
+	padding:150px 0;
+}
+.content h2{
+	font-weight: 700;
+	font-size: 29px;
+	margin-bottom: 0 !important;
+}
+.content>span{
+	color: #cbc4c4f4;
+	font-size:17px;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+	color:#cbc4c4f0 !important;
+}
+.num1{
+	color:#fff !important;
+	font-size:12px;
+}
+.num2{
+	color:#cbc4c4f4 !important;
+	font-size:12px;
+}
+
+
+
+/* ------content section----- */
+.head-con{
+	font-size: 29px;
+	font-weight: 700;
+}
+.info-btn{
+	font-size:11px !important;
+	padding:11px 20px !important;
+
+}
+form label{
+	font-size: 15px;
+}
+.bolds{
+	font-weight: 900;
+}
+.big-fs{
+	line-height:25px;
+	font-size:17px;
+}
+.office-add i{
+    border-radius:30px;
+    width:30px;
+    height:30px;
+    font-size:12px;
+}
+.hour li{
+	font-size:14px;
+}
+
+ /* ------footer section-------- */
+ .add h6, .add p{
+	font-size:13px;
+	line-height:10px !important;
+}
+.add a{
+   font-size:13px;
+   transition:all .5s linear;
+} 
+.add a:hover{
+   color:#fff !important;
+}
+.news p, .subscrib p{
+   font-size:14px;
+}
+.news p>a:hover{
+   color:#fff !important;
+}
+.foot-icon a{
+   display:inline-flex;
+   justify-content:center;
+   align-items:center;
+   width:30px;
+   height:30px;
+   border-radius:30px;
+   border:1px solid #444;
+   text-decoration:none;
+   transition:all .5s linear;
+}
+.foot-icon a:hover{
+   background:#4444e7c9;
+}
+.foot-icon a i{
+   font-size:13px;
+}
+
+.sub-inp{
+   background-color:#ffffff0d !important;
+   border-radius:35px !important;
+   padding:0.5rem 1.5rem !important;
+   color:#bfbfbf !important;
+}
+.onbtn{
+   font-size:12px !important;
+   padding:11px 30px !important;
+}
+.coppy{
+   border-top:1px solid #ffffff0d;
+}
+.coppy span{
+   font-size:12px;
+}
